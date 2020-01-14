@@ -1,0 +1,25 @@
+{
+  "name": "APP-NAME",
+  "version": "0.0.0",
+  "description": "waddup",
+  "scripts": {
+    "build": "gasket build",
+    "start": "gasket start",
+    "local": "gasket local"
+  },
+  "dependencies": {
+    "@gasket/assets": "^5.0.0",
+    "@gasket/cli": "^5.0.1",
+    "@gasket/log": "^5.0.0",
+    "@gasket/preset-nextjs": "^5.0.1",
+    "@gasket/redux": "^5.0.0",
+    "express": "^4.16.3",
+    "next": "^9.1.2",
+    "next-redux-wrapper": "^4.0.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4"
+  }
+}
