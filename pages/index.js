@@ -6,7 +6,7 @@ import fetch from '@gasket/fetch';
 
 export default class IndexPage extends Component {
   static async getInitialProps() {
-    const req = await fetch('http://localhost:8080/products');
+    const req = await fetch('http://localhost:8080/api/products');
     const data = await req.json();
 
     return { data };

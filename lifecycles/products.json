@@ -1,4 +1,10 @@
 [{
+  "id": 0,
+  "name": "Onions - Red Pearl",
+  "retailer": "Lakeland Industries, Inc.",
+  "score": 43,
+  "icon": "http://dummyimage.com/163x232.png/cc0000/ffffff"
+}, {
   "id": 1,
   "name": "Lettuce Romaine Chopped",
   "retailer": "Templeton Dragon Fund, Inc.",
