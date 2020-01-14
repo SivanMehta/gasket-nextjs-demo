@@ -1,19 +1,25 @@
 /* eslint-disable no-unused-vars */
-import React from 'react';
+import React, { Component } from 'react';
 import Head from '../components/head';
-import GasketEmblem from '@gasket/assets/react/gasket-emblem';
+import fetch from '@gasket/fetch';
 
-const pageStyle = { textAlign: 'center' };
-const logoStyle = { width: '250px', height: '250px' };
+export default class IndexPage extends Component {
+  static async getInitialProps() {
+    const req = await fetch('http://localhost:8080/products');
+    const data = await req.json();
+    console.log(data);
 
-export const IndexPage = () => (
-  <div style={ pageStyle }>
-    <Head title='Home'/>
-    <GasketEmblem style={ logoStyle }/>
-    <h1>Welcome to Gasket!</h1>
-    <p>To get started, edit <code>pages/index.js</code> and save to reload.</p>
-    <p><a href='https://gasket.dev'>Learn Gasket</a></p>
-  </div>
-);
+    return {
+      data
+    }
+  }
 
-export default IndexPage;
+  render() {
+    return (
+      <>
+        <Head title='Home'/>
+        <pre>{ JSON.stringify(this.props.data, null, 2) }</pre>
+      </>
+    );
+  }
+}

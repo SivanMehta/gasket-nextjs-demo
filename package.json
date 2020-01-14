@@ -10,6 +10,7 @@
   "dependencies": {
     "@gasket/assets": "^5.0.0",
     "@gasket/cli": "^5.0.1",
+    "@gasket/fetch": "^5.0.0",
     "@gasket/log": "^5.0.0",
     "@gasket/preset-nextjs": "^5.0.1",
     "@gasket/redux": "^5.0.0",

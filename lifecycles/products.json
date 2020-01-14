@@ -1,0 +1,51 @@
+[{
+  "id": 1,
+  "name": "Tuna - Loin",
+  "retailer": "PowerShares DWA Technology Momenum Portfolio",
+  "score": 60
+}, {
+  "id": 2,
+  "name": "Salt - Seasoned",
+  "retailer": "Alnylam Pharmaceuticals, Inc.",
+  "score": 63
+}, {
+  "id": 3,
+  "name": "Oil - Safflower",
+  "retailer": "PowerShares Global Agriculture Portfolio",
+  "score": 70
+}, {
+  "id": 4,
+  "name": "Beer - Steamwhistle",
+  "retailer": "Vornado Realty Trust",
+  "score": 4
+}, {
+  "id": 5,
+  "name": "Cake - French Pear Tart",
+  "retailer": "FuelCell Energy, Inc.",
+  "score": 73
+}, {
+  "id": 6,
+  "name": "Wine - Fino Tio Pepe Gonzalez",
+  "retailer": "Signature Bank",
+  "score": 71
+}, {
+  "id": 7,
+  "name": "Fudge - Cream Fudge",
+  "retailer": "Westpac Banking Corporation",
+  "score": 85
+}, {
+  "id": 8,
+  "name": "Scallops 60/80 Iqf",
+  "retailer": "Bank Mutual Corporation",
+  "score": 24
+}, {
+  "id": 9,
+  "name": "Chambord Royal",
+  "retailer": "Orrstown Financial Services Inc",
+  "score": 29
+}, {
+  "id": 10,
+  "name": "Sauce - Hoisin",
+  "retailer": "InterDigital, Inc.",
+  "score": 54
+}]
