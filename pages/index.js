@@ -1,25 +1,25 @@
 /* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
-import Head from '../components/head';
+import Page from '../components/page';
+import ProductCard from '../components/product-card';
 import fetch from '@gasket/fetch';
 
 export default class IndexPage extends Component {
   static async getInitialProps() {
     const req = await fetch('http://localhost:8080/products');
     const data = await req.json();
-    console.log(data);
 
-    return {
-      data
-    }
+    return { data };
   }
 
   render() {
+    const { data } = this.props;
     return (
-      <>
-        <Head title='Home'/>
-        <pre>{ JSON.stringify(this.props.data, null, 2) }</pre>
-      </>
+      <Page>
+        <div className='row'>
+          { data.map(p => <ProductCard { ...p }/>) }
+        </div>
+      </Page>
     );
   }
 }

@@ -1,51 +1,61 @@
 [{
   "id": 1,
-  "name": "Tuna - Loin",
-  "retailer": "PowerShares DWA Technology Momenum Portfolio",
-  "score": 60
+  "name": "Lettuce Romaine Chopped",
+  "retailer": "Templeton Dragon Fund, Inc.",
+  "score": 42,
+  "icon": "http://dummyimage.com/111x212.jpg/cc0000/ffffff"
 }, {
   "id": 2,
-  "name": "Salt - Seasoned",
-  "retailer": "Alnylam Pharmaceuticals, Inc.",
-  "score": 63
+  "name": "Oil - Hazelnut",
+  "retailer": "Procter & Gamble Company (The)",
+  "score": 94,
+  "icon": "http://dummyimage.com/205x245.jpg/5fa2dd/ffffff"
 }, {
   "id": 3,
-  "name": "Oil - Safflower",
-  "retailer": "PowerShares Global Agriculture Portfolio",
-  "score": 70
+  "name": "Chocolate Bar - Coffee Crisp",
+  "retailer": "Tocagen Inc.",
+  "score": 70,
+  "icon": "http://dummyimage.com/182x164.png/ff4444/ffffff"
 }, {
   "id": 4,
-  "name": "Beer - Steamwhistle",
-  "retailer": "Vornado Realty Trust",
-  "score": 4
+  "name": "Turkey - Breast, Double",
+  "retailer": "First BanCorp.",
+  "score": 93,
+  "icon": "http://dummyimage.com/172x248.png/5fa2dd/ffffff"
 }, {
   "id": 5,
-  "name": "Cake - French Pear Tart",
-  "retailer": "FuelCell Energy, Inc.",
-  "score": 73
+  "name": "Beef - Tongue, Cooked",
+  "retailer": "Duff & Phelps Utilities Tax-Free Income, Inc.",
+  "score": 95,
+  "icon": "http://dummyimage.com/174x168.jpg/ff4444/ffffff"
 }, {
   "id": 6,
-  "name": "Wine - Fino Tio Pepe Gonzalez",
-  "retailer": "Signature Bank",
-  "score": 71
+  "name": "Squash - Butternut",
+  "retailer": "Fogo de Chao, Inc.",
+  "score": 53,
+  "icon": "http://dummyimage.com/241x233.jpg/cc0000/ffffff"
 }, {
   "id": 7,
-  "name": "Fudge - Cream Fudge",
-  "retailer": "Westpac Banking Corporation",
-  "score": 85
+  "name": "Alize Red Passion",
+  "retailer": "Douglas Emmett, Inc.",
+  "score": 90,
+  "icon": "http://dummyimage.com/229x153.jpg/ff4444/ffffff"
 }, {
   "id": 8,
-  "name": "Scallops 60/80 Iqf",
-  "retailer": "Bank Mutual Corporation",
-  "score": 24
+  "name": "Cheese - Mozzarella",
+  "retailer": "Bioblast Pharma Ltd.",
+  "score": 90,
+  "icon": "http://dummyimage.com/125x108.jpg/ff4444/ffffff"
 }, {
   "id": 9,
-  "name": "Chambord Royal",
-  "retailer": "Orrstown Financial Services Inc",
-  "score": 29
+  "name": "Pants Custom Dry Clean",
+  "retailer": "Hewlett Packard Enterprise Company",
+  "score": 69,
+  "icon": "http://dummyimage.com/107x112.png/5fa2dd/ffffff"
 }, {
   "id": 10,
-  "name": "Sauce - Hoisin",
-  "retailer": "InterDigital, Inc.",
-  "score": 54
+  "name": "Pasta - Tortellini, Fresh",
+  "retailer": "Travelport Worldwide Limited",
+  "score": 69,
+  "icon": "http://dummyimage.com/239x116.jpg/5fa2dd/ffffff"
 }]
