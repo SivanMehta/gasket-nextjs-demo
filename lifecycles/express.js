@@ -2,10 +2,6 @@
 const data = require('./products.json');
 
 module.exports = function (gasket, app) {
-  app.get('/egg', function (req, res) {
-    res.send('wat');
-  });
-
   app.get('/api/products', function (req, res) {
     res.json(data);
   });
