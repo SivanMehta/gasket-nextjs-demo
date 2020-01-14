@@ -16,6 +16,10 @@ export default class IndexPage extends Component {
     const { data } = this.props;
     return (
       <Page>
+        <div className="jumbotron">
+          <h1 className="display-4">Hi there</h1>
+          <p className="lead">Please buy our products</p>
+        </div>
         <div className='row'>
           { data.map(p => <ProductCard { ...p }/>) }
         </div>
